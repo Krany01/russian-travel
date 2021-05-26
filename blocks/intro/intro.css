@@ -5,29 +5,32 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 92px;
-    padding-right: 0;
     padding-bottom: 92px;
-    padding-left: 0;
 }
 
 @media screen and (max-width: 1024px) {
     .intro {
-        max-width: 91%;
+        padding-top: 92px;
+        padding-right: 0;
+        padding-bottom: 92px;
+        padding-left: 0;
     }
 }
 
 @media screen and (max-width: 768px) {
     .intro {
-        max-width: 94%;
-        padding: 88px 0;
+        padding-top: 88px;
+        padding-right: 24px;
+        padding-bottom: 88px;
+        padding-left: 24px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .intro {
-        max-width: 90%;
-        padding: 64px 0;
-        font-size: 32px;
-        line-height: 35px;
+        padding-top: 64px;
+        padding-right: 16px;
+        padding-bottom: 64px;
+        padding-left: 16px;
     }
 }
